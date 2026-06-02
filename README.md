@@ -85,12 +85,25 @@ http://localhost:8080
 * Sync Gradle
 * Connect physical device
 * Set BASE_URL in config to your laptop IP:
+* 
 
 ```
 http://YOUR_IP:8080/api/v1
 ```
 
 ---
+
+
+## 📸 Demo / Screenshots
+
+### Android App
+
+- Transactions view
+<img width="331" height="441" alt="fintrack stk" src="https://github.com/user-attachments/assets/8b44ead8-41d1-4798-8cfc-9cfa12d139c2" />
+
+
+### Backend
+- Swagger / Postman screenshots
 
 ## 🔐 Environment Variables
 
