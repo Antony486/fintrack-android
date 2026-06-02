@@ -156,7 +156,7 @@ EXCHANGE_RATE_API_KEY=
 
 ## 🧪 Status
 
-* Backend: ✅ Complete
+* Backend: ✅ Complete (ktor)
 * Android: ✅ Complete (Compose + Koin)
 * Payment integrations: ✅ M-Pesa + Stripe
 * Currency API: ✅ Integrated
