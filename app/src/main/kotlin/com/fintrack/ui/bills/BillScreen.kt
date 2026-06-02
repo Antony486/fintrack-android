@@ -10,7 +10,6 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.*
 import androidx.compose.material3.*
-import androidx.compose.material3.ExposedDropdownMenuBoxScope.menuAnchor
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -225,7 +224,7 @@ fun AddBillDialog(
                     OutlinedTextField(value = recurrence, onValueChange = {}, readOnly = true,
                         label = { Text("Recurrence") },
                         trailingIcon = { ExposedDropdownMenuDefaults.TrailingIcon(recurrenceExpanded) },
-                        modifier = Modifier.menuAnchor(type, enabled).fillMaxWidth())
+                        modifier = Modifier.menuAnchor().fillMaxWidth())
                     ExposedDropdownMenu(expanded = recurrenceExpanded, onDismissRequest = { recurrenceExpanded = false }) {
                         recurrences.forEach { DropdownMenuItem(text = { Text(it) }, onClick = { recurrence = it; recurrenceExpanded = false }) }
                     }
