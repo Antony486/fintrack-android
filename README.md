@@ -67,3 +67,4 @@ app/src/main/kotlin/com/fintrack/
 4. **Budgets** — Budget status with progress bars, over-budget warnings
 5. **Bills** — Recurring bills, mark as paid, due date tracking
 6. **Payments** — M-Pesa STK Push + Stripe payment intent creation
+ 
