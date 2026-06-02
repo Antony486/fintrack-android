@@ -121,6 +121,14 @@ JWT_SECRET=
 EXCHANGE_RATE_API_KEY=
 ```
 
+## Screens
+1. **Login / Register** — JWT auth with token saved to DataStore
+2. **Dashboard** — Monthly summary card, quick actions, budget status, upcoming bills
+3. **Transactions** — List with filter chips, add form with dropdowns
+4. **Budgets** — Budget status with progress bars, over-budget warnings
+5. **Bills** — Recurring bills, mark as paid, due date tracking
+6. **Payments** — M-Pesa STK Push + Stripe payment intent creation
+ 
 ---
 
 ## 📡 API Endpoints
